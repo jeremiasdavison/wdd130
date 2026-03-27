@@ -1,7 +1,6 @@
 :root {
     --primary-color: #1b4965;
     --secondary-color: #eaf4f4;
-    --accent-color: #5fa8d3;
     --heading-color: #0b132b;
     --text-color: #222222;
     --white: #ffffff;
@@ -9,6 +8,8 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -109,6 +110,7 @@ nav a:hover {
     height: 110px;
     object-fit: cover;
     display: block;
+    float: right;
     justify-self: end;
 }
 
